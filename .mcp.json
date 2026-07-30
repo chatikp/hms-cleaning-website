@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/playwright-mcp"
+      ],
+      "env": {}
+    },
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/context7-mcp"
+      ],
+      "env": {}
+    }
+  }
+}

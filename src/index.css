@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  .font-accent {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background-color: #B9D7ED;
+    color: #142838;
+  }
+
+  :focus-visible {
+    outline: 2px solid #4488BE;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .link-underline {
+    @apply relative after:absolute after:-bottom-0.5 after:left-0 after:h-[1.5px] after:w-0 after:bg-current after:transition-all after:duration-300 after:ease-premium hover:after:w-full;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded-lg focus:bg-charcoal-900 focus:px-4 focus:py-3 focus:text-white focus:shadow-soft-lg;
+  }
+
+  .before-after-slider {
+    @apply rounded-[1.75rem] border border-white/10 bg-white/5 shadow-soft-lg ring-1 ring-white/10;
+  }
+
+  .before-after-slider-thumb {
+    @apply rounded-full bg-white shadow-soft-lg ring-1 ring-blue-500/30;
+  }
+
+  .before-after-slider-thumb > div {
+    @apply flex h-8 w-8 items-center justify-center rounded-full border border-charcoal-100/20 bg-sand-50 text-charcoal-950 shadow-[0_5px_12px_-8px_rgba(31,31,36,0.4)];
+  }
+}
+
+.draw-in {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: draw-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F7FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #8FBEE0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4488BE;
+}

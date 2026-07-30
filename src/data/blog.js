@@ -1,0 +1,115 @@
+export const blogPosts = [
+  {
+    slug: '10-daily-habits-that-keep-your-home-clean',
+    image: '/images/blog/10-daily-habits-that-keep-your-home-clean.jpg',
+    title: '10 Quick Daily Habits That Keep Your Home Clean Between Deep Cleans',
+    excerpt:
+      'A handful of two-minute habits, done consistently, do more for a home\'s upkeep than an occasional weekend scramble ever will.',
+    date: '2026-07-18',
+    readTime: '5 min read',
+    category: 'Home Care',
+    author: 'HMS Editorial Team',
+    content: [
+      'Wipe down kitchen counters and the stovetop right after cooking, while spills are still fresh — dried-on grease and sauce take five times longer to remove the next day.',
+      'Run a quick squeegee over shower glass and tile after your last shower of the day. It takes under a minute and is the single best way to prevent hard-water spots and soap scum buildup.',
+      'Make the bed every morning. It sounds cosmetic, but a made bed anchors the whole room and makes clutter elsewhere far more noticeable — and more likely to get dealt with.',
+      'Do a nightly two-minute reset: dishes in the dishwasher, mail sorted, shoes put away. Clutter compounds fast, and a nightly reset keeps it from ever reaching critical mass.',
+      'Keep a microfiber cloth and all-purpose spray under each sink so wiping down a bathroom counter or kitchen backsplash never requires a trip to another room — friction is the enemy of consistency.',
+      'These habits won\'t replace a deep clean, but they stretch the time between them considerably. When it is time for the deeper stuff, that\'s what our recurring visits are built to handle.',
+    ],
+  },
+  {
+    slug: 'removing-pet-hair-and-odor-guide',
+    image: '/images/blog/removing-pet-hair-and-odor-guide.jpg',
+    title: 'The Real Way to Get Pet Hair and Odor Out of Your Home',
+    excerpt:
+      'Standard vacuuming barely scratches the surface on pet hair and odor. Here\'s what actually works on upholstery, carpet, and air quality.',
+    date: '2026-06-25',
+    readTime: '6 min read',
+    category: 'Home Care',
+    author: 'HMS Editorial Team',
+    content: [
+      'Pet hair works itself into carpet fibers and upholstery weave, not just the surface, which is why a quick vacuum pass often leaves a room looking clean but still full of embedded hair.',
+      'A rubber-bristled brush or damp rubber glove pulls embedded hair out of upholstery and carpet far more effectively than suction alone — run it in short strokes and vacuum the loosened hair after.',
+      'For odor, baking soda left on carpet and upholstery for 15–20 minutes before vacuuming neutralizes trapped smells rather than masking them the way scented sprays do.',
+      'Wash pet bedding weekly on hot, and don\'t skip the spots pets favor most — under furniture, by windows, and any rug edge — since odor and dander concentrate in the same few zones.',
+      'A HEPA-filter vacuum and regular air filter changes make a bigger difference to pet odor than any spray, since a large share of what you\'re smelling is airborne dander, not just what\'s on surfaces.',
+      'If pet hair and odor have built up over time, our deep cleaning service targets upholstery, baseboards, and vents specifically — the places a weekly vacuum routine typically misses.',
+    ],
+  },
+  {
+    slug: 'ultimate-move-out-cleaning-checklist',
+    image: '/images/blog/ultimate-move-out-cleaning-checklist.jpg',
+    title: 'The Ultimate Move-Out Cleaning Checklist for Renters',
+    excerpt:
+      'Protect your security deposit with this room-by-room checklist covering everything landlords and property managers look for at inspection.',
+    date: '2026-06-02',
+    readTime: '7 min read',
+    category: 'Moving',
+    author: 'HMS Editorial Team',
+    content: [
+      'Moving out is stressful enough without worrying whether you\'ll get your full deposit back. Most deductions come down to cleaning issues that are entirely preventable with the right checklist.',
+      'Start with the kitchen: empty and wipe down the inside of your refrigerator, oven, and microwave. Grease buildup on stovetops and range hoods is one of the most common inspection flags.',
+      'In bathrooms, focus on grout lines, the underside of toilet seats, and any hard-water buildup around faucets and shower doors. A vinegar-based descaler works wonders on mineral deposits.',
+      'Don\'t forget vertical surfaces — baseboards, light switch plates, and door frames collect more dust than most people realize, and they\'re easy for an inspector to spot.',
+      'Finally, do a full floor detail: vacuum edges and corners, then mop with attention to areas under furniture footprints. If your lease requires professional carpet cleaning, keep the receipt as proof.',
+      'If this list feels like a lot on top of packing and logistics, our move-in/move-out cleaning service is built exactly for this moment — inspection-grade, guaranteed, and scheduled around your move date.',
+    ],
+  },
+  {
+    slug: 'how-often-should-you-deep-clean-your-home',
+    image: '/images/blog/how-often-should-you-deep-clean-your-home.jpg',
+    title: 'How Often Should You Really Deep Clean Your Home?',
+    excerpt:
+      'Weekly tidying and deep cleaning solve different problems. Here\'s a realistic cadence for keeping your home genuinely healthy, not just surface-clean.',
+    date: '2026-05-14',
+    readTime: '5 min read',
+    category: 'Home Care',
+    author: 'HMS Editorial Team',
+    content: [
+      'Regular cleaning keeps visible surfaces tidy, but dust, allergens, and grime build up in places a quick wipe-down never reaches — behind appliances, inside vents, along baseboards.',
+      'For most households, a seasonal deep clean (every 3 months) strikes the right balance. Homes with pets, young children, or allergy suffers may benefit from a deep clean every 6–8 weeks.',
+      'Signs it\'s time: visible dust on ceiling fans and vents, grout that won\'t respond to normal mopping, or a general staleness in the air even after regular cleaning.',
+      'Deep cleaning isn\'t just cosmetic — it removes allergens and buildup that regular cleaning routines miss, contributing to genuinely better indoor air quality.',
+      'Pairing a recurring light clean with a quarterly deep clean is the most cost-effective way to keep your home consistently healthy without paying for deep-clean pricing every visit.',
+    ],
+  },
+  {
+    slug: 'eco-friendly-cleaning-products-guide',
+    image: '/images/blog/eco-friendly-cleaning-products-guide.jpg',
+    title: 'Are Eco-Friendly Cleaning Products Actually Effective?',
+    excerpt:
+      'We break down what "eco-friendly" really means in cleaning products, and why we\'ve made them our default across every service.',
+    date: '2026-04-22',
+    readTime: '6 min read',
+    category: 'Sustainability',
+    author: 'HMS Editorial Team',
+    content: [
+      'The term "eco-friendly" gets used loosely, but meaningful low-tox products avoid harsh VOCs, synthetic fragrances, and phosphates while still delivering real cleaning power.',
+      'Modern plant-based degreasers and enzyme cleaners now perform comparably to traditional chemical formulas for most household soils, without the lingering fumes.',
+      'For genuinely tough jobs — like hard-water buildup or grease — we still reach for targeted, professional-grade solutions used correctly and in well-ventilated conditions.',
+      'The result is a home that smells clean because it is clean, not because a fragrance is masking odor, and a service that\'s safer for kids, pets, and anyone with sensitivities.',
+      'Every HMS visit uses eco-conscious products by default, at no extra cost — because we don\'t think you should have to choose between a spotless home and a healthy one.',
+    ],
+  },
+  {
+    slug: 'preparing-office-for-commercial-cleaning',
+    image: '/images/blog/preparing-office-for-commercial-cleaning.jpg',
+    title: '5 Ways to Prepare Your Office Before Your First Commercial Clean',
+    excerpt:
+      'A little prep goes a long way toward a smooth first visit — here\'s what facility managers should know before onboarding a janitorial partner.',
+    date: '2026-03-10',
+    readTime: '4 min read',
+    category: 'Commercial',
+    author: 'HMS Editorial Team',
+    content: [
+      'Clear desks of loose paperwork and personal items so our team can clean surfaces thoroughly without disturbing your workflow or confidential documents.',
+      'Flag any restricted areas — server rooms, private offices, or secure storage — so we can build them into (or explicitly out of) the cleaning scope from day one.',
+      'Share your building access procedure early: badge access, key handoff, or security check-in all affect how we schedule crew arrival times.',
+      'Let us know about any surfaces requiring special care, like antique furniture, specialty flooring, or sensitive equipment near cleaning zones.',
+      'Finally, designate a single point of contact for feedback during the first few visits — it helps us calibrate quickly to your team\'s exact standards.',
+    ],
+  },
+]
+
+export const getPostBySlug = (slug) => blogPosts.find((p) => p.slug === slug)
