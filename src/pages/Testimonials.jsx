@@ -11,7 +11,7 @@ export default function Testimonials() {
     <>
       <Seo
         title="Customer Testimonials & Reviews"
-        description="Read verified reviews from Harrell Maintenance Solution customers across Cleveland — residential, commercial, deep cleaning, and more."
+        description="Read verified reviews from Harrell Maintenance Solution customers across Cleveland: residential, commercial, deep cleaning, and more."
         path="/testimonials"
         jsonLd={{
           '@context': 'https://schema.org',
@@ -32,7 +32,7 @@ export default function Testimonials() {
             What our clients are saying
           </h1>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-charcoal-300">
-            We measure success one spotless space — and one honest review — at a time.
+            We measure success one spotless space, and one honest review, at a time.
           </p>
 
           <div className="mt-8 flex flex-col items-center rounded-[2rem] border border-white/15 bg-white/[0.06] px-10 py-8 shadow-glow-blue backdrop-blur-md">

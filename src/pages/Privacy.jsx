@@ -29,7 +29,7 @@ export default function Privacy() {
           <h2>How we use your information</h2>
           <p>
             We use your information to provide quotes, schedule and deliver cleaning services, communicate with
-            you about your appointments, and — with your consent — send occasional updates about our services.
+            you about your appointments, and, with your consent, send occasional updates about our services.
             We do not sell your personal information to third parties.
           </p>
 

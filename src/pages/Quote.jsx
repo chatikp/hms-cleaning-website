@@ -56,7 +56,7 @@ export default function Quote() {
     <>
       <Seo
         title="Get a Free Quote"
-        description="Request a free, no-obligation cleaning quote from Harrell Maintenance Solution. Get an instant price estimate and a confirmed quote within one business day."
+        description="Request a free cleaning quote from Harrell Maintenance Solution with no obligation. Get an instant price estimate and a confirmed quote within one business day."
         path="/quote"
       />
 
@@ -202,14 +202,14 @@ export default function Quote() {
                         <p className="mt-4 text-3xl font-heading font-semibold text-charcoal-900">Custom quote</p>
                         <p className="mt-2 text-sm text-charcoal-500">
                           {estimate.addonTotal > 0
-                            ? `Plus $${estimate.addonTotal} in selected add-ons — we’ll confirm your exact price after a quick walkthrough.`
+                            ? `Plus $${estimate.addonTotal} for selected extras. We’ll confirm your exact price after a quick walkthrough.`
                             : 'We’ll confirm your exact price after a quick walkthrough.'}
                         </p>
                       </>
                     ) : (
                       <>
                         <p className="mt-4 text-4xl font-heading font-semibold text-charcoal-900">
-                          ${estimate.low}–${estimate.high}
+                          ${estimate.low} to ${estimate.high}
                         </p>
                         <p className="mt-2 text-sm text-charcoal-500">Updated as you fill the form.</p>
                       </>

@@ -42,7 +42,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="Our services"
           title="A cleaning plan for every space"
-          subtitle="From weekly home upkeep to full commercial janitorial contracts — choose the service that fits."
+          subtitle="From weekly home upkeep to full commercial janitorial contracts, choose the service that fits."
         />
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {featuredServices.map((service, i) =>
@@ -71,7 +71,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="Real results"
           title="See the HMS difference"
-          subtitle="Drag the slider to compare — real transformations from real projects."
+          subtitle="Drag the slider to compare real transformations from real projects."
         />
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {featuredGallery.map((item, i) => (

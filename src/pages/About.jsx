@@ -15,17 +15,17 @@ const values = [
   {
     icon: Sparkles,
     title: 'Detail-obsessed',
-    description: 'We built a 40-point checklist so nothing — not a baseboard, not a light switch — gets overlooked.',
+    description: 'We built a 40-point checklist so nothing, not a baseboard, not a light switch, gets overlooked.',
   },
   {
     icon: ShieldCheck,
     title: 'Trust, verified',
-    description: 'Every team member is background-checked, and every visit is backed by our satisfaction guarantee.',
+    description: 'Every team member is background checked, and every visit is backed by our satisfaction guarantee.',
   },
   {
     icon: Leaf,
     title: 'Eco-conscious',
-    description: 'Low-tox, plant-based products are our default — safer for your family, pets, and the planet.',
+    description: 'Low tox, plant based products are our default, safer for your family, pets, and the planet.',
   },
   {
     icon: HeartHandshake,
@@ -46,7 +46,7 @@ export default function About() {
     <>
       <Seo
         title="About Us"
-        description="Learn about Harrell Maintenance Solution — a Cleveland-based cleaning company built on trust, detail, and eco-conscious care since 2014."
+        description="Learn about Harrell Maintenance Solution, a Cleveland based cleaning company built on trust, detail, and eco conscious care since 2014."
         path="/about"
       />
 
@@ -75,12 +75,12 @@ export default function About() {
             <p className="mt-5 leading-relaxed text-charcoal-300">
               Harrell Maintenance Solution started with a simple frustration: too many cleaning services treated
               detail as optional. Our founder, Shoantah Harrell, set out to build a company where every visit met a
-              hotel-grade standard — whether it was a studio apartment or a multi-floor office.
+              hotel grade standard, whether it was a studio apartment or a multi floor office.
             </p>
             <p className="mt-4 leading-relaxed text-charcoal-300">
               Over a decade later, that standard hasn&rsquo;t changed. We&rsquo;ve grown into a team of vetted,
-              trained professionals serving thousands of homes and businesses across Cleveland, but the checklist
-              — and the care behind it — is the same one we started with.
+              trained professionals serving thousands of homes and businesses across Cleveland, but the checklist,
+              and the care behind it, is the same one we started with.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
               {siteConfig.stats.slice(0, 2).map((stat) => (

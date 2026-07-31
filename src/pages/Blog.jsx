@@ -10,14 +10,14 @@ export default function Blog() {
     <>
       <Seo
         title="Cleaning Tips & Resources Blog"
-        description="Practical cleaning tips, move-out checklists, and home-care guides from the Harrell Maintenance Solution team."
+        description="Practical cleaning tips, move out checklists, and home care guides from the Harrell Maintenance Solution team."
         path="/blog"
       />
 
       <PageHero
         eyebrow="Blog"
         title="Cleaning tips & resources"
-        subtitle="Practical, no-nonsense guidance for keeping your home or workplace spotless between visits."
+        subtitle="Practical, straightforward guidance for keeping your home or workplace spotless between visits."
         breadcrumbs={[{ label: 'Blog' }]}
         image={blogHeroImage}
         blur

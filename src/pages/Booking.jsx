@@ -24,9 +24,9 @@ const frequencyOptions = [
 ]
 
 const timeOptions = [
-  { value: 'morning', label: 'Morning', hint: '8am – 11am', icon: Sunrise },
-  { value: 'afternoon', label: 'Afternoon', hint: '12pm – 3pm', icon: Sun },
-  { value: 'evening', label: 'Evening', hint: '4pm – 7pm', icon: Moon },
+  { value: 'morning', label: 'Morning', hint: '8am to 11am', icon: Sunrise },
+  { value: 'afternoon', label: 'Afternoon', hint: '12pm to 3pm', icon: Sun },
+  { value: 'evening', label: 'Evening', hint: '4pm to 7pm', icon: Moon },
 ]
 
 const stepFields = [
@@ -76,7 +76,7 @@ export default function Booking() {
     <>
       <Seo
         title="Book a Cleaning Online"
-        description="Book your Harrell Maintenance Solution cleaning appointment online in minutes. Choose your service, pick a time, and confirm — it's that simple."
+        description="Book your Harrell Maintenance Solution cleaning appointment online in minutes. Choose your service, pick a time, and confirm. It's that simple."
         path="/booking"
       />
 

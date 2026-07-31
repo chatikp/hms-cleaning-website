@@ -13,7 +13,7 @@ export default function Services() {
     <>
       <Seo
         title="Cleaning Services"
-        description="Explore HMS's full range of residential and commercial cleaning services — recurring home cleaning, deep cleaning, move-in/move-out, carpet care, window cleaning, and more."
+        description="Explore HMS's full range of residential and commercial cleaning services: recurring home cleaning, deep cleaning, move in and move out, carpet care, window cleaning, and more."
         path="/services"
         jsonLd={{
           '@context': 'https://schema.org',
@@ -62,7 +62,7 @@ export default function Services() {
                 align="left"
                 light={true}
                 title="All services"
-                subtitle="Professional cleaning solutions for homes, businesses, and move-in/move-out transitions — built on transparent pricing, vetted teams, and consistent results."
+                subtitle="Professional cleaning solutions for homes, businesses, and move in and move out transitions, built on transparent pricing, vetted teams, and consistent results."
                 className="mx-0 items-start text-left"
               />
             </div>
@@ -73,15 +73,15 @@ export default function Services() {
               <ul className="mt-6 space-y-3 text-sm text-white/65">
                 <li className="flex items-start gap-3">
                   <span className="mt-2 inline-flex h-2.5 w-2.5 rounded-full bg-blue-400" />
-                  Fully insured teams with background-checked professionals.
+                  Fully insured teams with background checked professionals.
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2 inline-flex h-2.5 w-2.5 rounded-full bg-sand-300" />
-                  Eco-conscious supplies and quality checks built into every visit.
+                  Eco conscious supplies and quality checks built into every visit.
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-2 inline-flex h-2.5 w-2.5 rounded-full bg-white/80" />
-                  Flexible services for homes, offices, and post-move cleanups.
+                  Flexible services for homes, offices, and post move cleanups.
                 </li>
               </ul>
             </div>
@@ -101,7 +101,7 @@ export default function Services() {
               </h3>
               <p className="mt-4 text-sm leading-7 text-charcoal-200">
                 Whether it&rsquo;s a weekly home refresh or a full commercial contract, every HMS service includes vetted
-                teams, eco-conscious supplies, and our satisfaction guarantee.
+                teams, eco conscious supplies, and our satisfaction guarantee.
               </p>
             </div>
           </Reveal>

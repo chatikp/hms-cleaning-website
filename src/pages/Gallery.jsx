@@ -22,7 +22,7 @@ export default function Gallery() {
     <>
       <Seo
         title="Before & After Gallery"
-        description="See real before-and-after transformations from HMS cleaning projects across kitchens, bathrooms, living rooms, carpets, and offices."
+        description="See real before and after transformations from HMS cleaning projects across kitchens, bathrooms, living rooms, carpets, and offices."
         path="/gallery"
       />
 
@@ -46,7 +46,7 @@ export default function Gallery() {
             <SectionHeading
               align="left"
               title="The evidence of good work speaks for itself"
-              subtitle="Years in this business taught us one thing: results convince more than words ever could. Every image here is a real before-and-after from real work — no staging, no filters, just the difference attentive cleaning makes."
+              subtitle="Years in this business taught us one thing: results convince more than words ever could. Every image here is a real before and after from real work, no staging, no filters, just the difference attentive cleaning makes."
               className="mx-0 items-start text-left"
             />
             <div className="rounded-[2rem] border border-white/10 bg-white p-6 shadow-soft-lg">
@@ -82,7 +82,7 @@ export default function Gallery() {
                   <h3 className="mt-3 text-3xl font-semibold text-white">A refined presentation for every space</h3>
                 </div>
                 <p className="text-sm text-charcoal-300 lg:max-w-sm">
-                  This gallery blends luxe composition, premium spacing, and soft tonal accents to present each before-and-after story as a polished showcase.
+                  This gallery blends luxe composition, premium spacing, and soft tonal accents to present each before and after story as a polished showcase.
                 </p>
               </div>
 

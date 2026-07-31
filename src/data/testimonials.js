@@ -23,7 +23,7 @@ export const testimonials = [
     role: 'Realtor, Beachwood',
     rating: 5,
     quote:
-      'I recommend HMS to every client listing a home. Their move-out cleans are inspection-ready every single time — no walkthrough surprises.',
+      'I recommend HMS to every client listing a home. Their move out cleans are inspection ready every single time, with no walkthrough surprises.',
     service: 'Move-In / Move-Out Cleaning',
   },
   {
@@ -32,7 +32,7 @@ export const testimonials = [
     role: 'Homeowners, Tremont',
     rating: 5,
     quote:
-      'The deep clean before our daughter\'s birthday party was incredible — baseboards, vents, everything. Worth every penny.',
+      'The deep clean before our daughter\'s birthday party was incredible: baseboards, vents, everything. Worth every penny.',
     service: 'Deep Cleaning',
   },
   {
@@ -59,7 +59,7 @@ export const testimonials = [
     role: 'Homeowner, Solon',
     rating: 5,
     quote:
-      'Home Reset is worth every dollar — I walk in after a long trip to hotel-style beds and folded towels. It genuinely changes how it feels to come home.',
+      'Home Reset is worth every dollar. I walk in after a long trip to hotel style beds and folded towels, and it genuinely changes how it feels to come home.',
     service: 'Home Reset™',
   },
   {
@@ -68,7 +68,7 @@ export const testimonials = [
     role: 'Property Manager, Independence',
     rating: 5,
     quote:
-      'We run tight turnovers across four short-term rentals and HMS has never made us miss a check-in. Guest-ready, every single time.',
+      'We run tight turnovers across four short term rentals and HMS has never made us miss a check in. Ready for guests, every single time.',
     service: 'Airbnb Cleaning',
   },
   {
@@ -77,7 +77,7 @@ export const testimonials = [
     role: 'Homeowner, Parma',
     rating: 5,
     quote:
-      'My son has bad allergies and the Clean Air Refresh add-on made a noticeable difference within the first week. Vents and blinds we didn\'t even think to check.',
+      'My son has bad allergies and the Clean Air Refresh addition made a noticeable difference within the first week. Vents and blinds we didn\'t even think to check.',
     service: 'Clean Air Refresh™',
   },
   {
@@ -86,7 +86,7 @@ export const testimonials = [
     role: 'Facilities Manager, Lakewood',
     rating: 5,
     quote:
-      'Our storefront glass gets grimy fast being right on the street. HMS leaves it streak-free every visit, rain or shine.',
+      'Our storefront glass gets grimy fast being right on the street. HMS leaves it streak free every visit, rain or shine.',
     service: 'Window Cleaning',
   },
   {
@@ -95,7 +95,7 @@ export const testimonials = [
     role: 'Homeowner, Garfield Heights',
     rating: 5,
     quote:
-      'I travel constantly for work and the Home Care Check gives me real peace of mind — a simple report after every visit flags anything before it becomes a real problem.',
+      'I travel constantly for work and the Home Care Check gives me real peace of mind. A simple report after every visit flags anything before it becomes a real problem.',
     service: 'Home Care Check™',
   },
   {
@@ -104,7 +104,7 @@ export const testimonials = [
     role: 'Homeowners, Rocky River',
     rating: 5,
     quote:
-      'Closing on our new place was stressful enough — the move-in clean was one less thing to worry about. Every cabinet and drawer was spotless before we unpacked a single box.',
+      'Closing on our new place was stressful enough. The move in clean was one less thing to worry about, and every cabinet and drawer was spotless before we unpacked a single box.',
     service: 'Move-In / Move-Out Cleaning',
   },
 ]

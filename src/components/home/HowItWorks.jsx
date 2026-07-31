@@ -15,7 +15,7 @@ import serviceWindow from '../../assets/images/service-window-squeegee.webp'
 const steps = [
   {
     title: 'Book online',
-    summary: 'Pick your service, home size, and a time slot that fits your schedule — takes under 2 minutes.',
+    summary: 'Pick your service, home size, and a time slot that fits your schedule. Takes under 2 minutes.',
     href: '/booking',
     image: stepBookOnline,
   },
@@ -27,7 +27,7 @@ const steps = [
   },
   {
     title: 'We clean, you relax',
-    summary: 'Our vetted, insured team works through a detail-first checklist tailored to your space.',
+    summary: 'Our vetted, insured team works through a meticulous checklist tailored to your space.',
     href: '/services',
     image: stepCleaning,
   },
@@ -42,7 +42,7 @@ const steps = [
 const serviceSteps = [
   {
     title: 'Residential Cleaning',
-    summary: 'A detail-first checklist covering every room, from baseboards to light fixtures, so your home feels genuinely cared for.',
+    summary: 'A meticulous checklist covering every room, from baseboards to light fixtures, so your home feels genuinely cared for.',
     href: '/services/residential-cleaning',
     image: serviceResidential,
   },
@@ -54,19 +54,19 @@ const serviceSteps = [
   },
   {
     title: 'Deep Cleaning',
-    summary: 'An intensive top-to-bottom pass — baseboards, behind appliances, grout, and vents — for a true reset.',
+    summary: 'An intensive pass from top to bottom covering baseboards, behind appliances, grout, and vents for a true reset.',
     href: '/services/deep-cleaning',
     image: serviceDeep,
   },
   {
     title: 'Move-In / Move-Out Cleaning',
-    summary: 'Inspection-grade cleaning of empty cabinets, appliances, and every surface to protect deposits and welcome new owners.',
+    summary: 'Inspection grade cleaning of empty cabinets, appliances, and every surface to protect deposits and welcome new owners.',
     href: '/services/move-in-move-out-cleaning',
     image: serviceMoveOut,
   },
   {
     title: 'Window Cleaning',
-    summary: 'Glass, tracks, screens, and sills cleaned with a purified water system for a streak-free finish.',
+    summary: 'Glass, tracks, screens, and sills cleaned with a purified water system for a streak free finish.',
     href: '/services/window-cleaning',
     image: serviceWindow,
   },
@@ -78,7 +78,7 @@ export default function HowItWorks() {
       <SectionHeading
         eyebrow="How It Works"
         title="A simple, seamless process"
-        subtitle="From your first booking to a spotless finish — here's exactly what to expect, and exactly what we do."
+        subtitle="From your first booking to a spotless finish, here's exactly what to expect, and exactly what we do."
       />
 
       <div className="mt-12 grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-10">

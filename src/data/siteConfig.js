@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: 'HMS',
   tagline: 'Premium cleaning, done right.',
   description:
-    'Detail-obsessed residential and commercial cleaning across the Cleveland metro area. Book online in minutes, get an instant quote, and enjoy a spotless space backed by our satisfaction guarantee.',
+    'Meticulous residential and commercial cleaning across the Cleveland metro area. Book online in minutes, get an instant quote, and enjoy a spotless space backed by our satisfaction guarantee.',
   phone: '(216) 291-7394',
   phoneHref: 'tel:+12162917394',
   email: 'hmsolutionsllc.co@gmail.com',
@@ -15,8 +15,8 @@ export const siteConfig = {
     full: '16400 Miles Ave, STE. 107',
   },
   hours: [
-    { days: 'Monday – Friday', time: '7:00 AM – 7:00 PM' },
-    { days: 'Saturday', time: '8:00 AM – 4:00 PM' },
+    { days: 'Monday to Friday', time: '7:00 AM to 7:00 PM' },
+    { days: 'Saturday', time: '8:00 AM to 4:00 PM' },
     { days: 'Sunday', time: 'Closed' },
   ],
   social: {

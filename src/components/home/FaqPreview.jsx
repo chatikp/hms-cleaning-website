@@ -16,7 +16,7 @@ const previewItems = [
 export default function FaqPreview() {
   return (
     <Section bg="cream">
-      <SectionHeading eyebrow="FAQ" title="Quick answers" subtitle="A few of the questions we hear most — see the full list for everything else." />
+      <SectionHeading eyebrow="FAQ" title="Quick answers" subtitle="A few of the questions we hear most. See the full list for everything else." />
       <div className="mx-auto mt-8 max-w-2xl">
         <Accordion items={previewItems} />
         <Reveal className="mt-8 flex justify-center">

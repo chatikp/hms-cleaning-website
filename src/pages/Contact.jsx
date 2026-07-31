@@ -41,7 +41,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with Harrell Maintenance Solution. Call, email, or send a message — we typically respond within one business day."
+        description="Get in touch with Harrell Maintenance Solution. Call, email, or send a message, and we typically respond within one business day."
         path="/contact"
       />
 
@@ -124,7 +124,7 @@ export default function Contact() {
                   <CheckCircle2 className="h-14 w-14 text-sand-600" aria-hidden="true" />
                   <h2 className="mt-5 font-heading text-2xl font-medium text-charcoal-900">Message sent!</h2>
                   <p className="mt-3 max-w-md text-charcoal-600">
-                    Thanks for reaching out — our team will get back to you within one business day.
+                    Thanks for reaching out. Our team will get back to you within one business day.
                   </p>
                 </div>
               </Reveal>

@@ -59,7 +59,7 @@ export default function BeforeAfterSlider({ title, service, image, beforeImage, 
             {image ? (
               <img
                 src={image}
-                alt={`${title} — after cleaning`}
+                alt={`${title} (after cleaning)`}
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -68,7 +68,7 @@ export default function BeforeAfterSlider({ title, service, image, beforeImage, 
                 icon={Sparkles}
                 tone="mixed"
                 label="After"
-                alt={`${title} — after cleaning`}
+                alt={`${title} (after cleaning)`}
                 className="h-full w-full"
                 iconClassName="h-12 w-12"
               />
@@ -82,7 +82,7 @@ export default function BeforeAfterSlider({ title, service, image, beforeImage, 
             {beforeImage ? (
               <img
                 src={beforeImage}
-                alt={`${title} — before cleaning`}
+                alt={`${title} (before cleaning)`}
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -90,7 +90,7 @@ export default function BeforeAfterSlider({ title, service, image, beforeImage, 
               <div className="relative h-full w-full">
                 <img
                   src={image}
-                  alt={`${title} — before cleaning`}
+                  alt={`${title} (before cleaning)`}
                   loading="lazy"
                   className="h-full w-full object-cover"
                   style={{ filter: 'grayscale(0.4) sepia(0.35) brightness(0.62) contrast(1.05) saturate(1.1)' }}
@@ -117,7 +117,7 @@ export default function BeforeAfterSlider({ title, service, image, beforeImage, 
                 icon={PaintBucket}
                 tone="charcoal"
                 label="Before"
-                alt={`${title} — before cleaning`}
+                alt={`${title} (before cleaning)`}
                 className="h-full w-full"
                 iconClassName="h-12 w-12"
               />

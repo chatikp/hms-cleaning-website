@@ -20,7 +20,7 @@ export default function ReviewsGlass() {
         <SectionHeading
           eyebrow="Real reviews"
           title="What Cleveland says about us"
-          subtitle="107+ five-star reviews from homeowners and businesses who trust HMS with their space."
+          subtitle="107+ five star reviews from homeowners and businesses who trust HMS with their space."
         />
 
         <div className="mt-12">

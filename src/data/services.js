@@ -3,12 +3,12 @@ export const services = [
     slug: 'residential-cleaning',
     icon: 'Home',
     title: 'Residential Cleaning',
-    shortDescription: 'Recurring or one-time home cleaning tailored to your household.',
+    shortDescription: 'Recurring or one time home cleaning tailored to your household.',
     description:
-      'Our signature residential cleaning covers every room with a detail-first checklist from baseboards to light fixtures, so your home feels calm and cared for, every visit.',
+      'Our signature residential cleaning covers every room with a meticulous checklist from baseboards to light fixtures, so your home feels calm and cared for, every visit.',
     startingPrice: 150,
     priceUnit: 'per visit',
-    duration: '1.5 – 3 hours',
+    duration: '1.5 to 3 hours',
     color: 'blue',
     includes: [
       'Dusting all surfaces, sills, and fixtures',
@@ -27,18 +27,18 @@ export const services = [
     idealFor: ['Busy households', 'Weekly / bi-weekly upkeep', 'New movers wanting a fresh start'],
     processSteps: [
       { title: 'Book online', description: 'Choose your frequency, home size, and preferred time slot.' },
-      { title: 'We arrive prepared', description: 'A vetted, background-checked team arrives with eco-conscious supplies.' },
-      { title: 'Room-by-room checklist', description: 'Every space is cleaned against our 40-point checklist.' },
-      { title: 'Walkthrough & guarantee', description: 'We review the results together — if it isn’t right, we return free.' },
+      { title: 'We arrive prepared', description: 'A vetted, background checked team arrives with eco conscious supplies.' },
+      { title: 'Room-by-room checklist', description: 'Every space is cleaned against our checklist of 40 points.' },
+      { title: 'Walkthrough & guarantee', description: 'We review the results together, and if it isn’t right, we return free.' },
     ],
   },
   {
     slug: 'commercial-cleaning',
     icon: 'Building2',
     title: 'Commercial Cleaning',
-    shortDescription: 'Reliable office & facility cleaning that keeps your business guest-ready.',
+    shortDescription: 'Reliable office & facility cleaning that keeps your business guest ready.',
     description:
-      'From boutique offices to multi-floor facilities, we build a custom janitorial schedule around your business hours so your space always makes the right impression.',
+      'From boutique offices to multi floor facilities, we build a custom janitorial schedule around your business hours so your space always makes the right impression.',
     startingPrice: 0,
     priceUnit: 'custom quote',
     duration: 'Flexible scheduling',
@@ -60,19 +60,19 @@ export const services = [
       { title: 'Site walkthrough', description: 'We assess your facility and build a scope of work.' },
       { title: 'Custom proposal', description: 'Transparent pricing based on square footage and frequency.' },
       { title: 'Dedicated team', description: 'A consistent, trained crew services your account.' },
-      { title: 'Quality checks', description: 'Regular inspections keep standards consistent long-term.' },
+      { title: 'Quality checks', description: 'Regular inspections keep standards consistent long term.' },
     ],
   },
   {
     slug: 'deep-cleaning',
     icon: 'Sparkles',
     title: 'Deep Cleaning',
-    shortDescription: 'An intensive top-to-bottom reset for homes that need extra attention.',
+    shortDescription: 'An intensive reset from top to bottom for homes that need extra attention.',
     description:
-      'Deep cleaning goes beyond the basics — baseboards, behind appliances, grout, vents, and every overlooked corner — ideal as a first clean or seasonal refresh.',
+      'Deep cleaning goes beyond the basics: baseboards, behind appliances, grout, vents, and every overlooked corner. Ideal as a first clean or seasonal refresh.',
     startingPrice: 220,
     priceUnit: 'starting',
-    duration: '3 – 6 hours',
+    duration: '3 to 6 hours',
     color: 'blue',
     includes: [
       'Everything in a standard clean, plus:',
@@ -93,7 +93,7 @@ export const services = [
       { title: 'Assessment', description: 'We ask about problem areas and priorities up front.' },
       { title: 'Top-down clean', description: 'Ceiling to floor, room by room, nothing skipped.' },
       { title: 'Detail pass', description: 'A second pass targets grout, edges, and buildup.' },
-      { title: 'Final inspection', description: 'A supervisor reviews the space before sign-off.' },
+      { title: 'Final inspection', description: 'A supervisor reviews the space before sign off.' },
     ],
   },
   {
@@ -102,10 +102,10 @@ export const services = [
     title: 'Move-In / Move-Out Cleaning',
     shortDescription: 'A spotless handoff for landlords, tenants, buyers, and sellers.',
     description:
-      'Whether you’re closing out a lease or handing over the keys, our move cleans meet inspection-grade standards so deposits are protected and new owners feel welcomed.',
+      'Whether you’re closing out a lease or handing over the keys, our move cleans meet inspection grade standards so deposits are protected and new owners feel welcomed.',
     startingPrice: 250,
     priceUnit: 'starting',
-    duration: '3 – 5 hours',
+    duration: '3 to 5 hours',
     color: 'sand',
     includes: [
       'Empty-cabinet & closet interiors',
@@ -125,19 +125,19 @@ export const services = [
       { title: 'Confirm empty space', description: 'We schedule once the space is vacant for full access.' },
       { title: 'Inspection-grade clean', description: 'Every surface is cleaned to landlord/buyer standards.' },
       { title: 'Photo documentation', description: 'We can provide before/after photos for your records.' },
-      { title: 'Guarantee', description: 'Free touch-up if anything is flagged within 24 hours.' },
+      { title: 'Guarantee', description: 'Free touch up if anything is flagged within 24 hours.' },
     ],
   },
   {
     slug: 'window-cleaning',
     icon: 'AppWindow',
     title: 'Window Cleaning',
-    shortDescription: 'Streak-free interior & exterior glass, screens, and sills.',
+    shortDescription: 'Streak free interior & exterior glass, screens, and sills.',
     description:
-      'Crystal-clear windows make every room brighter. We clean glass, tracks, screens, and sills using purified water systems for a streak-free finish.',
+      'Crystal clear windows make every room brighter. We clean glass, tracks, screens, and sills using purified water systems for a streak free finish.',
     startingPrice: 15,
     priceUnit: 'per window',
-    duration: '1 – 3 hours',
+    duration: '1 to 3 hours',
     color: 'sand',
     includes: [
       'Interior & exterior glass cleaning',
@@ -157,7 +157,7 @@ export const services = [
     processSteps: [
       { title: 'Site check', description: 'We assess access points and glass condition.' },
       { title: 'Screens & tracks', description: 'Screens are removed and washed; tracks vacuumed.' },
-      { title: 'Glass cleaning', description: 'Purified water-fed system leaves zero streaks or spots.' },
+      { title: 'Glass cleaning', description: 'Purified water fed system leaves zero streaks or spots.' },
       { title: 'Final walk', description: 'We inspect every pane before we leave.' },
     ],
   },
@@ -165,12 +165,12 @@ export const services = [
     slug: 'airbnb-cleaning',
     icon: 'Key',
     title: 'Airbnb Cleaning',
-    shortDescription: 'Fast, guest-ready turnover cleaning between check-out and check-in.',
+    shortDescription: 'Fast, guest ready turnover cleaning between check out and check in.',
     description:
-      'Short-term rentals live or die on reviews. We reset every space to a guest-ready standard on a tight turnaround, so your listing always shows five stars.',
+      'Short term rentals live or die on reviews. We reset every space to a guest ready standard on a tight turnaround, so your listing always shows five stars.',
     startingPrice: 0,
     priceUnit: 'custom quote',
-    duration: '1 – 2 hours',
+    duration: '1 to 2 hours',
     color: 'blue',
     includes: [
       'Full guest-ready reset of every room',
@@ -187,10 +187,10 @@ export const services = [
     ],
     idealFor: ['Short-term rental hosts', 'Property managers', 'Back-to-back bookings'],
     processSteps: [
-      { title: 'Booking sync', description: 'We coordinate around your check-out/check-in window.' },
-      { title: 'Quick turnaround clean', description: 'Every surface is reset to a guest-ready standard.' },
+      { title: 'Booking sync', description: 'We coordinate around your check out and check in window.' },
+      { title: 'Quick turnaround clean', description: 'Every surface is reset to a guest ready standard.' },
       { title: 'Restock & stage', description: 'Essentials are restocked and rooms staged for photos.' },
-      { title: 'Guest-ready check', description: 'A final walkthrough confirms the space is ready for check-in.' },
+      { title: 'Guest-ready check', description: 'A final walkthrough confirms the space is ready for check in.' },
     ],
   },
   {
@@ -199,10 +199,10 @@ export const services = [
     title: 'Home Reset™',
     shortDescription: 'Make the home feel like a luxury hotel after every visit.',
     description:
-      'Home Reset™ is our signature styling add-on — hotel-style beds, folded towels, and staged surfaces so your home feels like a five-star retreat the moment you walk in.',
+      'Home Reset™ is our signature styling addition: hotel style beds, folded towels, and staged surfaces so your home feels like a five star retreat the moment you walk in.',
     startingPrice: 40,
     priceUnit: 'add-on',
-    duration: '30 – 45 minutes',
+    duration: '30 to 45 minutes',
     color: 'sand',
     includes: [
       'Hotel-style bed making & pillow styling',
@@ -217,7 +217,7 @@ export const services = [
     processSteps: [
       { title: 'Standard clean first', description: 'Home Reset builds on top of your chosen cleaning service.' },
       { title: 'Hotel-style styling', description: 'Beds, towels, and surfaces are styled to a hotel standard.' },
-      { title: 'Final touches', description: 'Small styling details finish the five-star look.' },
+      { title: 'Final touches', description: 'Small styling details finish the five star look.' },
       { title: 'Walkthrough reveal', description: 'We walk you through the reset before we go.' },
     ],
   },
@@ -227,10 +227,10 @@ export const services = [
     title: 'Clean Air Refresh™',
     shortDescription: 'Focus on reducing dust and improving indoor air quality.',
     description:
-      'Clean Air Refresh™ targets the dust and allergens standard cleaning can miss — vents, filters, and high-dust zones — so the air in your home or office feels noticeably fresher.',
+      'Clean Air Refresh™ targets the dust and allergens standard cleaning can miss, including vents, filters, and high dust zones, so the air in your home or office feels noticeably fresher.',
     startingPrice: 60,
     priceUnit: 'add-on',
-    duration: '45 – 60 minutes',
+    duration: '45 to 60 minutes',
     color: 'blue',
     includes: [
       'HVAC vent & register dusting',
@@ -248,7 +248,7 @@ export const services = [
     processSteps: [
       { title: 'Air quality walkthrough', description: 'We identify dust hotspots and vent locations.' },
       { title: 'Vent & filter service', description: 'Vents are dusted and filters checked or swapped.' },
-      { title: 'High-dust detailing', description: 'Blinds, fans, and fixtures get an allergen-focused clean.' },
+      { title: 'High-dust detailing', description: 'Blinds, fans, and fixtures get an allergen focused clean.' },
       { title: 'Fresh-air check', description: 'A final pass confirms dust levels are visibly reduced.' },
     ],
   },
@@ -258,10 +258,10 @@ export const services = [
     title: 'Home Care Check™',
     shortDescription: 'A quick visual maintenance inspection with a simple report.',
     description:
-      'Home Care Check™ pairs your cleaning visit with a simple visual walkthrough — flagging small maintenance issues like leaks, loose fixtures, or wear before they become bigger problems.',
+      'Home Care Check™ pairs your cleaning visit with a simple visual walkthrough, flagging small maintenance issues like leaks, loose fixtures, or wear before they become bigger problems.',
     startingPrice: 25,
     priceUnit: 'add-on',
-    duration: '15 – 20 minutes',
+    duration: '15 to 20 minutes',
     color: 'sand',
     includes: [
       'Visual leak check under sinks & appliances',
@@ -280,8 +280,8 @@ export const services = [
     processSteps: [
       { title: 'Cleaning visit', description: 'Home Care Check is paired with your scheduled cleaning.' },
       { title: 'Visual walkthrough', description: 'Our team scans for common maintenance red flags.' },
-      { title: 'Simple report', description: 'You receive a short, photo-backed summary.' },
-      { title: 'Next steps', description: 'We flag anything that needs a specialist follow-up.' },
+      { title: 'Simple report', description: 'You receive a short, photo backed summary.' },
+      { title: 'Next steps', description: 'We flag anything that needs a specialist follow up.' },
     ],
   },
 ]
