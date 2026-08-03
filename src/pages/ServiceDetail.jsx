@@ -22,6 +22,7 @@ import { Input, Select, Textarea, Checkbox } from '../components/ui/FormField'
 import ServiceCard from '../components/services/ServiceCard'
 import { getServiceBySlug, services } from '../data/services'
 import { quoteSchema } from '../lib/schemas'
+import { supabase } from '../lib/supabaseClient'
 import { getIcon } from '../lib/icons'
 import heroResidential from '../assets/images/service-hero-residential.webp'
 import heroCommercial from '../assets/images/service-hero-commercial.webp'
@@ -79,8 +80,28 @@ export default function ServiceDetail() {
 
   if (!service) return <Navigate to="/services" replace />
 
-  const onSubmit = async () => {
-    await new Promise((resolve) => setTimeout(resolve, 900))
+  const onSubmit = async (formData) => {
+    const { error } = await supabase.from('quotes').insert([
+      {
+        first_name: formData.firstName,
+        last_name: formData.lastName,
+        email: formData.email,
+        phone: formData.phone,
+        property_type: formData.propertyType,
+        service_slug: formData.serviceSlug,
+        bedrooms: formData.bedrooms,
+        bathrooms: formData.bathrooms,
+        square_feet: formData.squareFeet,
+        add_ons: formData.addOns,
+        frequency: formData.frequency,
+        address: formData.address,
+        message: formData.message,
+      },
+    ])
+    if (error) {
+      console.error('Error submitting quote form:', error)
+      return
+    }
     setSubmitted(true)
   }
 

@@ -13,13 +13,6 @@ import { supabase } from '../lib/supabaseClient'
 import { siteConfig } from '../data/siteConfig'
 import contactHeroImage from '../assets/images/contact-customer-service.webp'
 
-const infoTiles = [
-  { icon: MapPin, tone: 'blue', label: 'Address' },
-  { icon: Phone, tone: 'sand', label: 'Phone' },
-  { icon: Mail, tone: 'blue', label: 'Email' },
-  { icon: Clock, tone: 'sand', label: 'Hours' },
-]
-
 const tileTone = {
   blue: 'border-blue-400/20 bg-blue-500/15 text-blue-200',
   sand: 'border-sand-400/20 bg-sand-500/15 text-sand-200',
