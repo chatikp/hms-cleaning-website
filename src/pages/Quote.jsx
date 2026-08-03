@@ -9,6 +9,7 @@ import Reveal from '../components/ui/Reveal'
 import Button from '../components/ui/Button'
 import { Input, Select, Textarea, Checkbox } from '../components/ui/FormField'
 import { quoteSchema } from '../lib/schemas'
+import { supabase } from '../lib/supabaseClient'
 import { estimateQuote } from '../lib/estimate'
 import { services } from '../data/services'
 import quoteHeroImage from '../assets/images/step-book-online.webp'
@@ -47,8 +48,28 @@ export default function Quote() {
     .filter((addOn) => (watched.addOns ?? []).includes(addOn.name))
     .reduce((sum, addOn) => sum + addOn.price, 0)
 
-  const onSubmit = async () => {
-    await new Promise((resolve) => setTimeout(resolve, 900))
+  const onSubmit = async (formData) => {
+    const { error } = await supabase.from('quotes').insert([
+      {
+        first_name: formData.firstName,
+        last_name: formData.lastName,
+        email: formData.email,
+        phone: formData.phone,
+        property_type: formData.propertyType,
+        service_slug: formData.serviceSlug,
+        bedrooms: formData.bedrooms,
+        bathrooms: formData.bathrooms,
+        square_feet: formData.squareFeet,
+        add_ons: formData.addOns,
+        frequency: formData.frequency,
+        address: formData.address,
+        message: formData.message,
+      },
+    ])
+    if (error) {
+      console.error('Error submitting quote form:', error)
+      return
+    }
     setSubmitted(true)
   }
 

@@ -10,6 +10,7 @@ import Button from '../components/ui/Button'
 import IconTile from '../components/ui/IconTile'
 import { Input, Select, Textarea, Checkbox } from '../components/ui/FormField'
 import { bookingSchema } from '../lib/schemas'
+import { supabase } from '../lib/supabaseClient'
 import { services, getServiceBySlug } from '../data/services'
 import { getIcon } from '../lib/icons'
 import bookingHeroImage from '../assets/images/booking-window-cleaning.webp'
@@ -67,8 +68,27 @@ export default function Booking() {
 
   const goBack = () => setStep((s) => Math.max(s - 1, 0))
 
-  const onSubmit = async () => {
-    await new Promise((resolve) => setTimeout(resolve, 900))
+  const onSubmit = async (formData) => {
+    const { error } = await supabase.from('bookings').insert([
+      {
+        first_name: formData.firstName,
+        last_name: formData.lastName,
+        email: formData.email,
+        phone: formData.phone,
+        service_slug: formData.serviceSlug,
+        frequency: formData.frequency,
+        preferred_date: formData.preferredDate,
+        preferred_time: formData.preferredTime,
+        address: formData.address,
+        city: formData.city,
+        zip: formData.zip,
+        access_notes: formData.accessNotes,
+      },
+    ])
+    if (error) {
+      console.error('Error submitting booking form:', error)
+      return
+    }
     setSubmitted(true)
   }
 
