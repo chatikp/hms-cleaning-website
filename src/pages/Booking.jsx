@@ -249,22 +249,22 @@ export default function Booking() {
                         <Input id="phone" type="tel" label="Phone number" required {...register('phone')} error={errors.phone?.message} />
                       </div>
 
-                      <div className="rounded-2xl border border-charcoal-100 bg-cream/70 p-5 backdrop-blur-sm">
-                        <p className="text-xs font-semibold uppercase tracking-wide text-charcoal-400">Booking summary</p>
-                        <dl className="mt-3 space-y-1.5 text-sm text-charcoal-600">
-                          <div className="flex justify-between">
+                      <div className="rounded-2xl border border-charcoal-100 bg-white/95 p-6 shadow-soft-xl ring-1 ring-charcoal-100/40">
+                        <p className="text-xs font-semibold uppercase tracking-wide text-charcoal-500">Booking summary</p>
+                        <dl className="mt-4 space-y-3 text-sm text-charcoal-700">
+                          <div className="flex justify-between gap-6">
                             <dt>Service</dt>
                             <dd className="font-semibold text-charcoal-900">{selectedService?.title}</dd>
                           </div>
-                          <div className="flex justify-between">
+                          <div className="flex justify-between gap-6">
                             <dt>Frequency</dt>
                             <dd className="font-semibold capitalize text-charcoal-900">{watched.frequency}</dd>
                           </div>
-                          <div className="flex justify-between">
+                          <div className="flex justify-between gap-6">
                             <dt>Date</dt>
                             <dd className="font-semibold text-charcoal-900">{watched.preferredDate || '—'}</dd>
                           </div>
-                          <div className="flex justify-between">
+                          <div className="flex justify-between gap-6">
                             <dt>Window</dt>
                             <dd className="font-semibold capitalize text-charcoal-900">{watched.preferredTime}</dd>
                           </div>
