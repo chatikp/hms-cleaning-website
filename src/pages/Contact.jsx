@@ -9,6 +9,7 @@ import Reveal from '../components/ui/Reveal'
 import Button from '../components/ui/Button'
 import { Input, Textarea } from '../components/ui/FormField'
 import { contactSchema } from '../lib/schemas'
+import { supabase } from '../lib/supabaseClient'
 import { siteConfig } from '../data/siteConfig'
 import contactHeroImage from '../assets/images/contact-customer-service.webp'
 
@@ -32,8 +33,20 @@ export default function Contact() {
     formState: { errors, isSubmitting },
   } = useForm({ resolver: zodResolver(contactSchema) })
 
-  const onSubmit = async () => {
-    await new Promise((resolve) => setTimeout(resolve, 900))
+  const onSubmit = async (formData) => {
+    const { error } = await supabase.from('leads').insert([
+      {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
+        message: formData.message,
+      },
+    ])
+    if (error) {
+      console.error('Error submitting contact form:', error)
+      return
+    }
     setSubmitted(true)
   }
 
