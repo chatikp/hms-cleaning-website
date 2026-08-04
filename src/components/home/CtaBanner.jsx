@@ -13,7 +13,7 @@ export default function CtaBanner() {
           Ready for a home that feels <span className="font-accent italic font-normal text-blue-300">effortlessly clean</span>?
         </h2>
         <p className="mt-4 max-w-xl text-lg text-charcoal-300">
-          Join thousands of Cleveland homes and businesses who trust HMS for a spotless space, every time.
+          Join hundreds of Cleveland homes and businesses who trust HMS for a spotless space, every time.
         </p>
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
           <Button to="/booking" size="lg" variant="primary" icon={CalendarCheck}>

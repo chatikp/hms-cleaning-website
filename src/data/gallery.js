@@ -43,7 +43,7 @@ export const galleryItems = [
     id: 9,
     title: 'Area rug restoration',
     category: 'Carpet',
-    service: 'Carpet & Upholstery Cleaning',
+    service: 'Deep Cleaning',
     image: '/images/gallery/carpet-edge-after.jpg',
   },
 ]

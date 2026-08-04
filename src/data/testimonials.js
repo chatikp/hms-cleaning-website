@@ -51,7 +51,7 @@ export const testimonials = [
     rating: 5,
     quote:
       'Our carpets look brand new. The crew was careful with furniture and explained the drying process clearly. Highly recommend.',
-    service: 'Carpet & Upholstery Cleaning',
+    service: 'Deep Cleaning',
   },
   {
     id: 7,

@@ -79,7 +79,7 @@ export default function About() {
             </p>
             <p className="mt-4 leading-relaxed text-charcoal-300">
               Over a decade later, that standard hasn&rsquo;t changed. We&rsquo;ve grown into a team of vetted,
-              trained professionals serving thousands of homes and businesses across Cleveland, but the checklist,
+              trained professionals serving hundreds of homes and businesses across Cleveland, but the checklist,
               and the care behind it, is the same one we started with.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
