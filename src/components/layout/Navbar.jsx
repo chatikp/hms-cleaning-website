@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ease-premium ${
-        scrolled ? 'bg-cream/90 shadow-soft backdrop-blur-md' : 'bg-cream/70 backdrop-blur-sm'
+        scrolled ? 'bg-cream/95 shadow-soft lg:bg-cream/90 lg:backdrop-blur-md' : 'bg-cream/90 lg:bg-cream/70 lg:backdrop-blur-sm'
       }`}
     >
       <a href="#main-content" className="skip-link">

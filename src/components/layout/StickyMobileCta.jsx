@@ -4,7 +4,7 @@ import Button from '../ui/Button'
 
 export default function StickyMobileCta() {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 flex gap-2 border-t border-charcoal-100 bg-white/95 p-3 backdrop-blur-md shadow-soft-xl lg:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 flex gap-2 border-t border-charcoal-100 bg-white p-3 shadow-soft-xl lg:hidden">
       <Button href={siteConfig.phoneHref} variant="outline-charcoal" size="md" icon={Phone} className="flex-1">
         Call
       </Button>

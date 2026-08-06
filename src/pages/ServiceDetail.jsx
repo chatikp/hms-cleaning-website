@@ -258,7 +258,7 @@ export default function ServiceDetail() {
           </div>
 
           <div className="lg:col-span-1">
-            <div className="sticky top-28 space-y-6">
+            <div className="space-y-6 lg:sticky lg:top-28">
               <Reveal>
                 <Card hover={false} className="border-blue-100 bg-blue-50">
                   <div className="flex items-center gap-3">

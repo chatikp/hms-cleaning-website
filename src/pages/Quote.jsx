@@ -213,9 +213,9 @@ export default function Quote() {
           </div>
 
           <div className="lg:col-span-1">
-            <div className="sticky top-28 space-y-6">
+            <div className="space-y-6 lg:sticky lg:top-28">
               <Reveal>
-                <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg backdrop-blur-xl">
+                <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg lg:backdrop-blur-xl">
                   <div className="text-center">
                     <p className="text-xs font-semibold uppercase tracking-wide text-charcoal-500">Live estimate</p>
                     {estimate.isCustomQuote ? (
@@ -277,7 +277,7 @@ export default function Quote() {
 
               {selectedService.addOns?.length > 0 && (
                 <Reveal delay={0.05}>
-                  <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg backdrop-blur-xl">
+                  <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg lg:backdrop-blur-xl">
                     <p className="text-xs font-semibold uppercase tracking-wide text-charcoal-500">Additional services</p>
                     <div className="mt-4 grid gap-3">
                       {selectedService.addOns.map((addOn) => (
@@ -306,7 +306,7 @@ export default function Quote() {
               )}
 
               <Reveal delay={0.1}>
-                <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg backdrop-blur-xl">
+                <div className="rounded-none border border-white/40 bg-white/95 p-6 shadow-soft-lg lg:backdrop-blur-xl">
                   <ul className="space-y-4 text-sm text-charcoal-700">
                     <li className="flex items-start gap-3">
                       <ShieldCheck className="mt-1 h-5 w-5 flex-shrink-0 text-charcoal-500" aria-hidden="true" />
