@@ -16,7 +16,7 @@ export default function Logo({ light = false }) {
           Harrell Maintenance
         </span>
         <span className={`text-[11px] font-semibold uppercase tracking-[0.2em] ${light ? 'text-blue-200' : 'text-blue-600'}`}>
-          Solution
+          Solutions
         </span>
       </span>
     </Link>
