@@ -4,7 +4,7 @@ export const faqCategories = [
     items: [
       {
         q: 'How do I book a cleaning?',
-        a: 'You can book instantly through our online booking page, request a custom quote, or call us at (216) 291-7394. Online bookings receive a confirmation email within minutes.',
+        a: 'You can book instantly through our online booking page, request a custom quote, or call us at (216) 600-3771. Online bookings receive a confirmation email within minutes.',
       },
       {
         q: 'How far in advance should I book?',

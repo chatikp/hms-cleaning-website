@@ -4,8 +4,8 @@ export const siteConfig = {
   tagline: 'Premium cleaning, done right.',
   description:
     'Meticulous residential and commercial cleaning across the Cleveland metro area. Book online in minutes, get an instant quote, and enjoy a spotless space backed by our satisfaction guarantee.',
-  phone: '(216) 291-7394',
-  phoneHref: 'tel:+12162917394',
+  phone: '(216) 600-3771',
+  phoneHref: 'tel:+12166003771',
   email: 'hmsolutionsllc.co@gmail.com',
   address: {
     street: '16400 Miles Ave, STE. 107',
