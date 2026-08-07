@@ -120,7 +120,7 @@ export default function ServiceDetail() {
           '@context': 'https://schema.org',
           '@type': 'Service',
           serviceType: service.title,
-          provider: { '@type': 'HousekeepingService', name: 'Harrell Maintenance Solution' },
+          provider: { '@type': 'HousekeepingService', name: 'Harrell Maintenance Solutions' },
           areaServed: 'Cleveland, OH',
           description: service.description,
         }}
@@ -245,7 +245,7 @@ export default function ServiceDetail() {
 
                     <Checkbox
                       id="consent"
-                      label="I agree to be contacted by Harrell Maintenance Solution about my quote request."
+                      label="I agree to be contacted by Harrell Maintenance Solutions about my quote request."
                       {...register('consent')}
                     />
                     {errors.consent && <p className="-mt-4 text-xs font-medium text-red-600">{errors.consent.message}</p>}

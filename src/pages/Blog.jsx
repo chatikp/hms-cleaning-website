@@ -10,7 +10,7 @@ export default function Blog() {
     <>
       <Seo
         title="Cleaning Tips & Resources Blog"
-        description="Practical cleaning tips, move out checklists, and home care guides from the Harrell Maintenance Solution team."
+        description="Practical cleaning tips, move out checklists, and home care guides from the Harrell Maintenance Solutions team."
         path="/blog"
       />
 

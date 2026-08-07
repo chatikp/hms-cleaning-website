@@ -32,7 +32,7 @@ export default function BlogPost() {
           description: post.excerpt,
           datePublished: post.date,
           author: { '@type': 'Organization', name: post.author },
-          publisher: { '@type': 'Organization', name: 'Harrell Maintenance Solution' },
+          publisher: { '@type': 'Organization', name: 'Harrell Maintenance Solutions' },
         }}
       />
 

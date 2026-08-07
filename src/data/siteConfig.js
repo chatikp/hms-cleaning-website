@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: 'Harrell Maintenance Solution',
+  name: 'Harrell Maintenance Solutions',
   shortName: 'HMS',
   tagline: 'Premium cleaning, done right.',
   description:

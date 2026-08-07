@@ -79,7 +79,7 @@ export default function Quote() {
     <>
       <Seo
         title="Get a Free Quote"
-        description="Request a free cleaning quote from Harrell Maintenance Solution with no obligation. Get an instant price estimate and a confirmed quote within one business day."
+        description="Request a free cleaning quote from Harrell Maintenance Solutions with no obligation. Get an instant price estimate and a confirmed quote within one business day."
         path="/quote"
       />
 
@@ -200,7 +200,7 @@ export default function Quote() {
 
                   <Checkbox
                     id="consent"
-                    label="I agree to be contacted by Harrell Maintenance Solution about my quote request."
+                    label="I agree to be contacted by Harrell Maintenance Solutions about my quote request."
                     {...register('consent')}
                   />
                   {errors.consent && <p className="-mt-4 text-xs font-medium text-red-600">{errors.consent.message}</p>}

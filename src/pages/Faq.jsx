@@ -39,7 +39,7 @@ export default function Faq() {
     <>
       <Seo
         title="Frequently Asked Questions"
-        description="Answers to common questions about booking, pricing, guarantees, and what to expect from Harrell Maintenance Solution's cleaning services."
+        description="Answers to common questions about booking, pricing, guarantees, and what to expect from Harrell Maintenance Solutions' cleaning services."
         path="/faq"
         jsonLd={jsonLd}
       />

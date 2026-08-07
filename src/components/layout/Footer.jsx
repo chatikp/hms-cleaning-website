@@ -19,7 +19,7 @@ export default function Footer() {
                 href={siteConfig.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Harrell Maintenance Solution on Facebook"
+                aria-label="Harrell Maintenance Solutions on Facebook"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-charcoal-300 transition-colors hover:bg-blue-500 hover:text-white"
               >
                 <Facebook className="h-4 w-4" />
@@ -28,7 +28,7 @@ export default function Footer() {
                 href={siteConfig.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Harrell Maintenance Solution on Instagram"
+                aria-label="Harrell Maintenance Solutions on Instagram"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-charcoal-300 transition-colors hover:bg-sand-500 hover:text-white"
               >
                 <Instagram className="h-4 w-4" />
@@ -109,7 +109,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col items-center justify-between gap-4 py-6 text-xs text-charcoal-500 sm:flex-row">
-          <p>© {year} Harrell Maintenance Solution. All rights reserved.</p>
+          <p>© {year} Harrell Maintenance Solutions LLC. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="/privacy-policy" className="hover:text-charcoal-300">Privacy Policy</Link>
             <Link to="/terms-of-service" className="hover:text-charcoal-300">Terms of Service</Link>

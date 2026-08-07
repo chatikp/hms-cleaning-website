@@ -49,7 +49,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact Us"
-        description="Get in touch with Harrell Maintenance Solution. Call, email, or send a message, and we typically respond within one business day."
+        description="Get in touch with Harrell Maintenance Solutions. Call, email, or send a message, and we typically respond within one business day."
         path="/contact"
       />
 
@@ -164,7 +164,7 @@ export default function Contact() {
             Find us
           </div>
           <iframe
-            title="Harrell Maintenance Solution location map"
+            title="Harrell Maintenance Solutions location map"
             src={siteConfig.mapEmbedSrc}
             style={{ border: 0 }}
             loading="lazy"

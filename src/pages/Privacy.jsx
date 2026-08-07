@@ -8,7 +8,7 @@ export default function Privacy() {
     <>
       <Seo
         title="Privacy Policy"
-        description="Read the Harrell Maintenance Solution privacy policy to understand how we collect, use, and protect your information."
+        description="Read the Harrell Maintenance Solutions privacy policy to understand how we collect, use, and protect your information."
         path="/privacy-policy"
         noindex
       />

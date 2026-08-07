@@ -11,12 +11,12 @@ export default function Testimonials() {
     <>
       <Seo
         title="Customer Testimonials & Reviews"
-        description="Read verified reviews from Harrell Maintenance Solution customers across Cleveland: residential, commercial, deep cleaning, and more."
+        description="Read verified reviews from Harrell Maintenance Solutions customers across Cleveland: residential, commercial, deep cleaning, and more."
         path="/testimonials"
         jsonLd={{
           '@context': 'https://schema.org',
           '@type': 'Product',
-          name: 'Harrell Maintenance Solution Cleaning Services',
+          name: 'Harrell Maintenance Solutions Cleaning Services',
           aggregateRating: {
             '@type': 'AggregateRating',
             ratingValue: '4.9',

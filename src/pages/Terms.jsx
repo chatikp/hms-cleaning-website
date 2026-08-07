@@ -8,7 +8,7 @@ export default function Terms() {
     <>
       <Seo
         title="Terms of Service"
-        description="Review the terms of service for booking and using Harrell Maintenance Solution's cleaning services."
+        description="Review the terms of service for booking and using Harrell Maintenance Solutions' cleaning services."
         path="/terms-of-service"
         noindex
       />
@@ -45,7 +45,7 @@ export default function Terms() {
 
           <h2>Liability</h2>
           <p>
-            Harrell Maintenance Solution is licensed, bonded, and insured. Please notify our team in advance of
+            Harrell Maintenance Solutions LLC is licensed, bonded, and insured. Please notify our team in advance of
             any fragile, high value, or irreplaceable items so we can take appropriate care.
           </p>
 

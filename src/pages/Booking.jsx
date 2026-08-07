@@ -98,7 +98,7 @@ export default function Booking() {
     <>
       <Seo
         title="Book a Cleaning Online"
-        description="Book your Harrell Maintenance Solution cleaning appointment online in minutes. Choose your service, pick a time, and confirm. It's that simple."
+        description="Book your Harrell Maintenance Solutions cleaning appointment online in minutes. Choose your service, pick a time, and confirm. It's that simple."
         path="/booking"
       />
 
@@ -275,7 +275,7 @@ export default function Booking() {
 
                       <Checkbox
                         id="consent"
-                        label="I agree to be contacted by Harrell Maintenance Solution to confirm this booking."
+                        label="I agree to be contacted by Harrell Maintenance Solutions to confirm this booking."
                         {...register('consent')}
                       />
                       {errors.consent && <p className="-mt-4 text-xs font-medium text-red-600">{errors.consent.message}</p>}

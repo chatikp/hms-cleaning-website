@@ -14,7 +14,7 @@ export const testimonials = [
     role: 'Office Manager, Whitfield Law',
     rating: 5,
     quote:
-      'Switching our office janitorial contract to Harrell Maintenance Solution was the easiest facilities decision we made all year. Consistent, professional, and responsive.',
+      'Switching our office janitorial contract to Harrell Maintenance Solutions was the easiest facilities decision we made all year. Consistent, professional, and responsive.',
     service: 'Commercial Cleaning',
   },
   {

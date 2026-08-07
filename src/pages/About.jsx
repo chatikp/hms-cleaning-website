@@ -46,14 +46,14 @@ export default function About() {
     <>
       <Seo
         title="About Us"
-        description="Learn about Harrell Maintenance Solution, a Cleveland based cleaning company built on trust, detail, and eco conscious care since 2014."
+        description="Learn about Harrell Maintenance Solutions, a Cleveland based cleaning company built on trust, detail, and eco conscious care since 2014."
         path="/about"
       />
 
       <PageHero
         eyebrow="About HMS"
         title="What a decade of cleaning has taught us"
-        subtitle={`Since ${siteConfig.founded}, we've learned that real cleanliness comes from discipline and attention to detail, not shortcuts. That's the standard Harrell Maintenance Solution has carried into every Cleveland home and business we've served.`}
+        subtitle={`Since ${siteConfig.founded}, we've learned that real cleanliness comes from discipline and attention to detail, not shortcuts. That's the standard Harrell Maintenance Solutions has carried into every Cleveland home and business we've served.`}
         breadcrumbs={[{ label: 'About' }]}
         translucentPanel
         image={aboutHeroImage}
@@ -73,7 +73,7 @@ export default function About() {
           <Reveal delay={0.1}>
             <h2 className="font-heading text-3xl font-medium text-white">Our story</h2>
             <p className="mt-5 leading-relaxed text-charcoal-300">
-              Harrell Maintenance Solution started with a simple frustration: too many cleaning services treated
+              Harrell Maintenance Solutions started with a simple frustration: too many cleaning services treated
               detail as optional. Our founder, Shoantah Harrell, set out to build a company where every visit met a
               hotel grade standard, whether it was a studio apartment or a multi floor office.
             </p>

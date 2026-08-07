@@ -66,7 +66,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-charcoal-200">
-            Harrell Maintenance Solution delivers meticulous residential and commercial cleaning across
+            Harrell Maintenance Solutions delivers meticulous residential and commercial cleaning across
             Cleveland. Book online in minutes, get an instant quote, and enjoy a satisfaction guarantee on every
             visit.
           </p>
