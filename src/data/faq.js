@@ -67,7 +67,7 @@ export const faqCategories = [
       },
       {
         q: 'What areas do you service?',
-        a: 'We proudly serve Cleveland, OH and surrounding areas within a 20-mile radius, including Garfield Heights, Cleveland Heights, Shaker Heights, University Heights, and South Euclid.',
+        a: 'We proudly serve Cleveland, OH and surrounding areas within a 20-mile radius, including Beachwood, Bedford, Cleveland Heights, Garfield Heights, Lakewood, Maple Heights, Parma, Rocky River, Shaker Heights, South Euclid, and University Heights.',
       },
     ],
   },

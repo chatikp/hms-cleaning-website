@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom'
 import Reveal from '../ui/Reveal'
 
 const neighborhoods = [
-  'Garfield Heights',
+  'Beachwood',
+  'Bedford',
   'Cleveland',
   'Cleveland Heights',
-  'Shaker Heights',
+  'Garfield Heights',
+  'Lakewood',
   'Maple Heights',
   'Parma',
+  'Rocky River',
+  'Shaker Heights',
   'South Euclid',
   'University Heights',
-  'Bedford',
 ]
 
 export default function ServiceAreas() {
