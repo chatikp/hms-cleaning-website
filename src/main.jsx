@@ -4,7 +4,10 @@ import { BrowserRouter } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { MotionConfig } from 'framer-motion'
 import App from './App.jsx'
+import { initAnalytics } from './lib/analytics'
 import './index.css'
+
+initAnalytics()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

@@ -11,6 +11,7 @@ import IconTile from '../components/ui/IconTile'
 import { Input, Select, Textarea, Checkbox } from '../components/ui/FormField'
 import { bookingSchema } from '../lib/schemas'
 import { supabase } from '../lib/supabaseClient'
+import { trackEvent } from '../lib/analytics'
 import { services, getServiceBySlug } from '../data/services'
 import { getIcon } from '../lib/icons'
 import bookingHeroImage from '../assets/images/booking-window-cleaning.webp'
@@ -89,6 +90,7 @@ export default function Booking() {
       console.error('Error submitting booking form:', error)
       return
     }
+    trackEvent('generate_lead', { form_type: 'booking' })
     setSubmitted(true)
   }
 

@@ -10,6 +10,7 @@ import Button from '../components/ui/Button'
 import { Input, Select, Textarea, Checkbox } from '../components/ui/FormField'
 import { quoteSchema } from '../lib/schemas'
 import { supabase } from '../lib/supabaseClient'
+import { trackEvent } from '../lib/analytics'
 import { estimateQuote } from '../lib/estimate'
 import { services } from '../data/services'
 import quoteHeroImage from '../assets/images/step-book-online.webp'
@@ -70,6 +71,7 @@ export default function Quote() {
       console.error('Error submitting quote form:', error)
       return
     }
+    trackEvent('generate_lead', { form_type: 'quote' })
     setSubmitted(true)
   }
 

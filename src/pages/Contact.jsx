@@ -10,6 +10,7 @@ import Button from '../components/ui/Button'
 import { Input, Textarea } from '../components/ui/FormField'
 import { contactSchema } from '../lib/schemas'
 import { supabase } from '../lib/supabaseClient'
+import { trackEvent } from '../lib/analytics'
 import { siteConfig } from '../data/siteConfig'
 import contactHeroImage from '../assets/images/contact-customer-service.webp'
 
@@ -40,6 +41,7 @@ export default function Contact() {
       console.error('Error submitting contact form:', error)
       return
     }
+    trackEvent('generate_lead', { form_type: 'contact' })
     setSubmitted(true)
   }
 

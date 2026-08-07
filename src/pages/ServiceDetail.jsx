@@ -23,6 +23,7 @@ import ServiceCard from '../components/services/ServiceCard'
 import { getServiceBySlug, services } from '../data/services'
 import { quoteSchema } from '../lib/schemas'
 import { supabase } from '../lib/supabaseClient'
+import { trackEvent } from '../lib/analytics'
 import { getIcon } from '../lib/icons'
 import heroResidential from '../assets/images/service-hero-residential.webp'
 import heroCommercial from '../assets/images/service-hero-commercial.webp'
@@ -102,6 +103,7 @@ export default function ServiceDetail() {
       console.error('Error submitting quote form:', error)
       return
     }
+    trackEvent('generate_lead', { form_type: 'quote', service: service.slug })
     setSubmitted(true)
   }
 
