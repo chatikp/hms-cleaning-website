@@ -11,8 +11,8 @@ export const siteConfig = {
     street: '16400 Miles Ave, STE. 107',
     city: 'Cleveland',
     state: 'OH',
-    zip: '44125',
-    full: '16400 Miles Ave, STE. 107, Cleveland, OH 44125',
+    zip: '44128',
+    full: '16400 Miles Ave, STE. 107, Cleveland, OH 44128',
   },
   hours: [
     { days: 'Monday to Friday', time: '7:00 AM to 7:00 PM' },
@@ -25,7 +25,7 @@ export const siteConfig = {
     google: 'https://www.google.com/maps',
   },
   mapEmbedSrc:
-    'https://www.google.com/maps?q=16400+Miles+Ave+Ste+107,+Cleveland,+OH+44125&output=embed',
+    'https://www.google.com/maps?q=16400+Miles+Ave+Ste+107,+Cleveland,+OH+44128&output=embed',
   serviceArea: 'Cleveland, OH & surrounding areas within 20 miles',
   founded: 2014,
   stats: [
