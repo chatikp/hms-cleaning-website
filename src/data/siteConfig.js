@@ -20,7 +20,7 @@ export const siteConfig = {
     { days: 'Sunday', time: 'Closed' },
   ],
   social: {
-    facebook: 'https://www.facebook.com/harrellmaintenancesolution',
+    facebook: 'https://www.facebook.com/profile.php?id=61592936945114',
     instagram: 'https://www.instagram.com/harrellmaintenancesolution',
     google: 'https://www.google.com/maps',
   },
