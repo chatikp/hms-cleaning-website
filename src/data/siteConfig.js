@@ -31,7 +31,7 @@ export const siteConfig = {
   stats: [
     { label: 'Years of experience', value: 12, suffix: '+' },
     { label: 'Homes & offices cleaned', value: 137, suffix: '+' },
-    { label: 'Average client rating', value: 4.9, suffix: '/5' },
+    { label: 'Suburbs served', value: 12, suffix: '+' },
     { label: 'Satisfaction guarantee', value: 100, suffix: '%' },
   ],
 }

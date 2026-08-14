@@ -1,7 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Seo from '../components/seo/Seo'
 import Hero from '../components/home/Hero'
-import ReviewsGlass from '../components/home/ReviewsGlass'
 import HowItWorks from '../components/home/HowItWorks'
 import CtaBanner from '../components/home/CtaBanner'
 // StatementBand removed; replacing with a Did-you-know FactStrip
@@ -13,11 +12,9 @@ import SectionHeading from '../components/ui/SectionHeading'
 import Reveal from '../components/ui/Reveal'
 import Button from '../components/ui/Button'
 import ServiceCard from '../components/services/ServiceCard'
-import TestimonialStrip from '../components/testimonials/TestimonialStrip'
 import FaqPreview from '../components/home/FaqPreview'
 import BeforeAfterSlider from '../components/gallery/BeforeAfterSlider'
 import { services } from '../data/services'
-import { testimonials } from '../data/testimonials'
 import { galleryItems } from '../data/gallery'
 import { siteConfig } from '../data/siteConfig'
 import { facts } from '../data/facts'
@@ -62,9 +59,6 @@ export default function Home() {
 
       <SeamBadge ringClassName="border-charcoal-950" />
       <FactStrip fact={facts[0]} />
-
-      <ReviewsGlass />
-
       <FactStrip fact={facts[2]} />
 
       <Section bg="white">
@@ -88,8 +82,6 @@ export default function Home() {
       </Section>
 
       <FaqPreview />
-
-      <TestimonialStrip testimonials={testimonials} />
 
       <ServiceAreas />
 

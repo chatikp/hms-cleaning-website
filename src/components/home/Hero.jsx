@@ -1,11 +1,11 @@
 import { useRef } from 'react'
 import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from 'framer-motion'
-import { ArrowRight, CalendarCheck, ShieldCheck, Star } from 'lucide-react'
+import { ArrowRight, CalendarCheck, ShieldCheck, Home as HomeIcon } from 'lucide-react'
 import Button from '../ui/Button'
 import Badge from '../ui/Badge'
-import StarRating from '../ui/StarRating'
 import BrandMotif from '../ui/BrandMotif'
 import heroImage from '../../assets/images/hero-living-room.webp'
+import { siteConfig } from '../../data/siteConfig'
 
 export default function Hero() {
   const sectionRef = useRef(null)
@@ -82,9 +82,11 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap items-center gap-6">
             <div className="flex items-center gap-2">
-              <StarRating rating={5} />
-              <span className="text-sm font-semibold text-charcoal-100">4.9/5</span>
-              <span className="text-sm text-charcoal-400">from 107+ reviews</span>
+              <ShieldCheck className="h-4 w-4 text-blue-300" aria-hidden="true" />
+              <span className="text-sm font-semibold text-charcoal-100">
+                {new Date().getFullYear() - siteConfig.founded}+ years
+              </span>
+              <span className="text-sm text-charcoal-400">serving Cleveland &amp; suburbs</span>
             </div>
           </div>
         </motion.div>
@@ -114,11 +116,11 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.65 }}
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-100 text-blue-700">
-              <Star className="h-5 w-5 fill-current" aria-hidden="true" />
+              <HomeIcon className="h-5 w-5" aria-hidden="true" />
             </span>
             <div>
-              <p className="text-sm font-bold text-charcoal-900">4.9 / 5 Rating</p>
-              <p className="text-xs text-charcoal-500">107+ verified reviews</p>
+              <p className="text-sm font-bold text-charcoal-900">137+ Spaces Cleaned</p>
+              <p className="text-xs text-charcoal-500">Homes &amp; offices across Cleveland</p>
             </div>
           </motion.div>
         </div>
