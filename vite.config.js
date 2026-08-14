@@ -40,7 +40,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://www.harrellmaintenancesolution.com',
+      hostname: 'https://www.harrellmaintenancesolutions.com',
       dynamicRoutes: routes,
       changefreq: 'weekly',
     }),

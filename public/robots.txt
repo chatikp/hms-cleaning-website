@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.harrellmaintenancesolution.com/sitemap.xml
+Sitemap: https://www.harrellmaintenancesolutions.com/sitemap.xml

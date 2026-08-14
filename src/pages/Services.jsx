@@ -22,7 +22,7 @@ export default function Services() {
             '@type': 'ListItem',
             position: i + 1,
             name: s.title,
-            url: `https://www.harrellmaintenancesolution.com/services/${s.slug}`,
+            url: `https://www.harrellmaintenancesolutions.com/services/${s.slug}`,
           })),
         }}
       />

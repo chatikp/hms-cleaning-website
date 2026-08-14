@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
 const SITE_NAME = 'Harrell Maintenance Solutions'
-const SITE_URL = 'https://www.harrellmaintenancesolution.com'
+const SITE_URL = 'https://www.harrellmaintenancesolutions.com'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`
 
 export default function Seo({
