@@ -59,7 +59,6 @@ export default function Home() {
 
       <SeamBadge ringClassName="border-charcoal-950" />
       <FactStrip fact={facts[0]} />
-      <FactStrip fact={facts[2]} />
 
       <Section bg="white">
         <SectionHeading
@@ -80,6 +79,8 @@ export default function Home() {
           </Button>
         </Reveal>
       </Section>
+
+      <FactStrip fact={facts[2]} />
 
       <FaqPreview />
 
