@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Harrell Maintenance Solutions',
   shortName: 'HMS',
-  tagline: 'Premium cleaning, done right.',
+  tagline: 'Clean Spaces. Stronger Places.',
   description:
     'Meticulous residential and commercial cleaning across the Cleveland metro area. Book online in minutes, get an instant quote, and enjoy a spotless space backed by our satisfaction guarantee.',
   phone: '(216) 600-3771',
