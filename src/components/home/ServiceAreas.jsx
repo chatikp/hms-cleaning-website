@@ -27,8 +27,8 @@ export default function ServiceAreas() {
               <MapPin className="h-5 w-5" aria-hidden="true" />
             </span>
             <div>
-              <p className="font-heading text-base font-medium text-white">Proudly serving Cleveland, OH</p>
-              <p className="text-sm text-charcoal-400">and neighborhoods within a 20-mile radius</p>
+              <p className="font-heading text-base font-medium text-white">Serving homes, offices, and local businesses across Cleveland and nearby suburbs</p>
+              <p className="text-sm text-charcoal-400">From weekly home care to recurring commercial cleaning, we help families, landlords, and growing businesses across Greater Cleveland.</p>
             </div>
           </div>
 
